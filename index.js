@@ -17,5 +17,7 @@ function destructivelyRemoveFirstKitten(name){
 }
 
 function appendKitten(name){
-  kittens.push(name)
+  const appendKittenName = kittens
+  appendKittenName.push(name)
+  return appendKittenName
 }
